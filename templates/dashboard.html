@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            margin: 0;
+        }
+        .navbar {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px;
+            text-align: right;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="/logout">Logout</a>
+</div>
+
+<div class="container">
+    <h2>Welcome, {{ name }} 🎉</h2>
+    <p>You have successfully logged into the Employee Management System.</p>
+</div>
+
+</body>
+</html>
