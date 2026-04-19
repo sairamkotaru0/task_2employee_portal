@@ -1,0 +1,51 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Flask / app instance
+instance/
+
+# Database files
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Static build files
+staticfiles/
+*.map
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+*.spec
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node (if using JS in static)
+node_modules/
+
+# Temporary files
+*.tmp
+*.bak
